@@ -1,0 +1,22 @@
+{
+  "name": "pmstack",
+  "version": "0.1.0",
+  "description": "Product-marketing stack for Claude Code. A gstack-shaped plugin for positioning, conversion copy, trust audits, visual critique, LT/EU SEO, and A/B planning — opinionated for product-led B2C+B2B sites that need to look great and convert.",
+  "license": "MIT",
+  "author": {
+    "name": "Darius Drevinskas",
+    "email": "drevinskas.darius@gmail.com"
+  },
+  "homepage": "https://github.com/drevinskas-darius/pmstack",
+  "keywords": [
+    "claude-code",
+    "marketing",
+    "product-marketing",
+    "conversion",
+    "copywriting",
+    "positioning",
+    "cro",
+    "seo",
+    "ab-testing"
+  ]
+}
