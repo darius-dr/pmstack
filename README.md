@@ -1,5 +1,7 @@
 # pmstack
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-7C5CFF.svg)](https://docs.claude.com/en/docs/claude-code/plugins) [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/dariusd)
+
 > Product-marketing stack for Claude Code. A gstack-shaped opinionated plugin that turns Claude Code into a virtual product-marketing team: positioning, conversion copy, trust audits, visual critique, LT/EU SEO, and A/B planning — built for product-led sites that need to look great and convert without making things up.
 
 **Status:** v0.1 — initial release, tuned for [Relando](https://reportus-web.vercel.app/) (LT real-estate due diligence) but designed to generalize.
@@ -17,13 +19,14 @@
 
 ```bash
 # 1. Clone into your Claude Code plugins dir (or use the Claude Code plugin installer)
-git clone https://github.com/drevinskas-darius/pmstack ~/.claude/plugins/pmstack
+git clone https://github.com/darius-dr/pmstack ~/.claude/plugins/pmstack
 
 # 2. Open your marketing site repo in Claude Code
 cd path/to/your/marketing-site
 
-# 3. Run the ingest first — pmstack reads your MDs and builds an ICP/positioning brief
-/pm:ingest
+# 3. Build the positioning brief — pick the right path:
+/pm:ingest          # repo has marketing MDs (PRD, DESIGN, etc.) — pmstack reads them
+/pm:office-hours    # repo is sparse or greenfield — pmstack interviews you (5-10 min)
 
 # 4. Then run any of the subagent commands
 /pm:audience buyers     # ICP brief for a specific segment
@@ -40,7 +43,8 @@ cd path/to/your/marketing-site
 
 | Command | What it does | When to run |
 |---------|-------------|-------------|
-| `/pm:ingest` | Reads every `*.md` in the repo (PRD, DESIGN, REDESIGN-PLAN, TODOS, planning notes). Outputs a positioning brief + ICP scaffolds. | First. Then whenever the product context changes materially. |
+| `/pm:ingest` | Reads every `*.md` in the repo (PRD, DESIGN, REDESIGN-PLAN, TODOS, planning notes). Outputs a positioning brief + ICP scaffolds. | First, if the repo has marketing-adjacent MDs. |
+| `/pm:office-hours` | Forcing-questions intake interview. Seven sharp questions + four context choices, with pushback on vague answers. Produces the same `positioning.md` as `/pm:ingest` but from a conversation. | When the repo has no/sparse MDs, OR when `/pm:ingest` left gaps that need your voice to fill. |
 | `/pm:audience <segment>` | Spawns the Audience Researcher subagent for one segment. ICP, JTBD, objections, primary CTA. | Before writing copy for a new audience. |
 | `/pm:copy <section>` | Spawns Conversion Copywriter. Rewrites a section against AIDA/PAS/BAB, anchored to one audience. | When a section underperforms or is off-brand. |
 | `/pm:trust-audit` | Spawns Trust & Objection Auditor. Flags claims ahead of shipped capability, fake stats, fabricated proof. | Before every launch. Mandatory CI step. |
@@ -63,9 +67,10 @@ Six opinionated subagents, each with a single job:
 
 ## Skills
 
-Three skills extend pmstack's per-repo knowledge:
+Four skills extend pmstack's per-repo knowledge:
 
 - `ingest-context` — how to read a marketing-adjacent repo (PRD, DESIGN, REDESIGN-PLAN, TODOS, planning artifacts) without missing anything.
+- `intake-questionnaire` — forcing-questions catalog + pushback rules for `/pm:office-hours`. Used when the repo can't be ingested.
 - `relando-brand` — example skill: the Relando brand voice, tokens, banned verbs, advisory stance. Replace with your own brand skill or copy the structure.
 - `icp-frameworks` — JTBD, PAS, AIDA, BAB, value-prop canvas. Concrete prompts the subagents pull from.
 
@@ -84,8 +89,13 @@ This is overridable per-command (`--full-vision`) but the default is honest-now.
 ## How it composes
 
 ```
-/pm:ingest
+/pm:ingest           # repo has marketing MDs
    ↓ produces  .pmstack/positioning.md  +  .pmstack/icp/{segment}.md
+   OR
+/pm:office-hours     # repo is sparse / greenfield
+   ↓ interviews you with 7 forcing questions + 4 context choices
+   ↓ produces  .pmstack/positioning.md  +  .pmstack/icp/{segment}.md
+
 /pm:audience buyers / brokers / developers
    ↓ produces  .pmstack/icp/{segment}.md  (refined)
 /pm:copy hero / value-props / pricing / faq / cta
@@ -124,7 +134,11 @@ It's framework-agnostic for the underlying site — Next.js, SvelteKit, Astro, R
 
 ## Contributing
 
-Open a PR. Per-segment brand skills are the most useful contribution — drop a `skills/{brand-name}/` directory with a `SKILL.md` and the subagents will route to it when the repo matches.
+Open a PR. Per-segment brand skills are the most useful contribution — drop a `skills/{brand-name}/` directory with a `SKILL.md` and the subagents will route to it when the repo matches. See `CONTRIBUTING.md` for the design principles PRs need to respect.
+
+## Support pmstack
+
+pmstack is free and MIT-licensed. If it saved you time or helped a launch land, [buy me a coffee](https://buymeacoffee.com/dariusd) — fully optional, much appreciated. Brand skills, vertical ICP packs, and regulatory checklists you contribute back via PR are equally welcome.
 
 ## License
 

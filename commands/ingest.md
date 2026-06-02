@@ -65,6 +65,16 @@ You are running pmstack's ingest step. Your job is to read the marketing-relevan
    - Top 3 honesty-stance risks (claims ahead of capability).
    - Anything else that surprised you.
 
+6. **Detect sparse-context repos.** If the ingest produced a brief with any of:
+   - Fewer than 3 documented audiences.
+   - No documented advisory stance or banned-verb list.
+   - Empty or `[needs-interview]` markers for ≥5 sections.
+   - No DESIGN.md / brand voice docs at all.
+
+   …then explicitly recommend `/pm:office-hours` in the summary: *"Your repo has limited marketing context. Run `/pm:office-hours` to fill the gaps via a 5-10 minute intake interview."*
+
+   If the repo has NO marketing-adjacent MDs at all (greenfield), refuse to write `positioning.md` and tell the user to run `/pm:office-hours` instead — there's nothing to ingest.
+
 ## Hard rules
 
 - Do not invent facts. Every claim in `positioning.md` must cite a source file.

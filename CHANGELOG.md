@@ -4,6 +4,11 @@ All notable changes to pmstack are documented here. Format: [Keep a Changelog](h
 
 ## [Unreleased]
 
+### Added
+- `/pm:office-hours` — forcing-questions intake interview that produces `positioning.md` when the repo has no/sparse MDs. Sibling of `/pm:ingest`. Seven forcing questions + four context choices, with pushback on vague answers.
+- `skills/intake-questionnaire/` — the question catalog + pushback rules powering `/pm:office-hours`.
+- `/pm:ingest` now detects sparse-context repos and recommends `/pm:office-hours`.
+
 ## [0.1.0] — 2026-06-01
 
 ### Added
@@ -14,5 +19,5 @@ All notable changes to pmstack are documented here. Format: [Keep a Changelog](h
 - Honesty-stance default: hard. Trust-objection-auditor blocks handoff on Critical findings.
 - Worked-example artifacts for Relando (LT real-estate due-diligence) in `examples/relando/`.
 
-[Unreleased]: https://github.com/drevinskas-darius/pmstack/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/drevinskas-darius/pmstack/releases/tag/v0.1.0
+[Unreleased]: https://github.com/darius-dr/pmstack/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/darius-dr/pmstack/releases/tag/v0.1.0

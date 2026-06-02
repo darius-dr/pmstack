@@ -13,11 +13,16 @@ The shape is identical. The opinions are different.
 ## The flow
 
 ```
-                        ┌──────────────────────┐
-                        │   /pm:ingest         │
-                        │   (read repo MDs)    │
-                        └──────────┬───────────┘
-                                   │
+        ┌──────────────────────┐         ┌──────────────────────┐
+        │   /pm:ingest         │   OR    │   /pm:office-hours   │
+        │   (read repo MDs)    │         │   (intake interview) │
+        └──────────┬───────────┘         └──────────┬───────────┘
+                   │                                │
+                   └──────────────┬─────────────────┘
+                                  │
+                                  ▼
+                       .pmstack/positioning.md
+                                  │
                 ┌──────────────────┼──────────────────┐
                 ▼                  ▼                  ▼
         ┌────────────┐     ┌────────────┐     ┌────────────┐
@@ -93,6 +98,7 @@ pmstack/
 │   └── plugin.json           # manifest
 ├── commands/                 # slash commands (user-facing)
 │   ├── ingest.md
+│   ├── office-hours.md       # questionnaire fallback when MDs are sparse
 │   ├── audience.md
 │   ├── copy.md
 │   ├── trust-audit.md
@@ -110,6 +116,7 @@ pmstack/
 │   └── ab-test-planner.md
 ├── skills/                   # composable knowledge
 │   ├── ingest-context/SKILL.md
+│   ├── intake-questionnaire/SKILL.md  # used by /pm:office-hours
 │   ├── relando-brand/SKILL.md     # example brand skill
 │   └── icp-frameworks/SKILL.md
 ├── docs/

@@ -37,3 +37,7 @@ Thanks for considering a contribution. pmstack is opinionated by design — most
 ## License
 
 By contributing you agree your contributions are MIT-licensed under this repo.
+
+## Support
+
+pmstack is free. If it's saved you time, [buy me a coffee](https://buymeacoffee.com/dariusd) — entirely optional. Contributions via PR are equally valuable.
