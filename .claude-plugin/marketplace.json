@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pmstack",
+  "description": "Product-marketing stack for Claude Code — positioning, conversion copy, trust audits, visual critique, SEO, and A/B planning. Opinionated; refuses to fabricate.",
+  "owner": {
+    "name": "Darius Drevinskas",
+    "email": "drevinskas.darius@gmail.com",
+    "url": "https://github.com/darius-dr"
+  },
+  "plugins": [
+    {
+      "name": "pmstack",
+      "description": "A gstack-shaped plugin that turns Claude Code into a virtual product-marketing team. 9 commands, 6 opinionated subagents, 4 skills. Honesty-by-default: a trust auditor blocks shipping copy that's ahead of the product, fabricated, or regulatorily exposed. Works on any product (Lithuanian, English, B2C, B2B).",
+      "version": "0.1.0",
+      "author": {
+        "name": "Darius Drevinskas",
+        "email": "drevinskas.darius@gmail.com"
+      },
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://github.com/darius-dr/pmstack",
+      "license": "MIT",
+      "keywords": [
+        "marketing",
+        "product-marketing",
+        "copywriting",
+        "positioning",
+        "conversion",
+        "cro",
+        "seo",
+        "ab-testing",
+        "icp",
+        "trust-audit"
+      ]
+    }
+  ]
+}

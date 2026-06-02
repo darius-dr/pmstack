@@ -8,6 +8,8 @@ All notable changes to pmstack are documented here. Format: [Keep a Changelog](h
 - `/pm:office-hours` — forcing-questions intake interview that produces `positioning.md` when the repo has no/sparse MDs. Sibling of `/pm:ingest`. Seven forcing questions + four context choices, with pushback on vague answers.
 - `skills/intake-questionnaire/` — the question catalog + pushback rules powering `/pm:office-hours`.
 - `/pm:ingest` now detects sparse-context repos and recommends `/pm:office-hours`.
+- `.claude-plugin/marketplace.json` — self-hosted marketplace manifest. Users can now install with `/plugin marketplace add darius-dr/pmstack` + `/plugin install pmstack@pmstack`.
+- README install section updated with the new one-command marketplace path.
 
 ## [0.1.0] — 2026-06-01
 

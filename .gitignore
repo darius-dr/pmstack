@@ -5,3 +5,7 @@
 node_modules/
 .pmstack/cache/
 *.swp
+
+# Local session-handoff state — kept out of the public repo.
+HANDOFF.md
+.continue-here.md

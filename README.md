@@ -18,7 +18,13 @@
 ## Quick start
 
 ```bash
-# 1. Clone into your Claude Code plugins dir (or use the Claude Code plugin installer)
+# 1. Install — pick one path:
+
+#    Path A (recommended): add as a marketplace and install. One command, auto-updates.
+/plugin marketplace add darius-dr/pmstack
+/plugin install pmstack@pmstack
+
+#    Path B: clone into your Claude Code plugins dir manually.
 git clone https://github.com/darius-dr/pmstack ~/.claude/plugins/pmstack
 
 # 2. Open your marketing site repo in Claude Code
