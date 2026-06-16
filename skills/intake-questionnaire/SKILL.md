@@ -24,7 +24,7 @@ Seven forcing questions + four context questions. Run them in order; skip a ques
 - Answer is >25 words → pushback: "Shorter. One sentence."
 - Answer is a feature list → pushback: "Not features. The job it does for someone."
 
-**Accept when:** the answer names a specific user + a specific outcome. Example accept: *"It tells Lithuanian property buyers what's wrong with a parcel before they sign."*
+**Accept when:** the answer names a specific user + a specific outcome. Example accept: *"It tells property buyers what's wrong with a parcel before they sign."*
 
 ---
 
@@ -118,14 +118,14 @@ Seven forcing questions + four context questions. Run them in order; skip a ques
 
 These are bounded — use `AskUserQuestion` for each.
 
-### C1 — Language + region
+### C1 — Primary market
 
 ```
-Question: "What language and primary market does this serve?"
+Question: "What's the primary market / region this serves?"
 Options:
-- Lithuanian (LT)
-- English (multi-region)
-- English (US-only)
+- Single country / local
+- Regional (multiple countries)
+- Global
 - Other
 ```
 
@@ -136,7 +136,7 @@ Question: "What's the current pricing posture?"
 Options:
 - B2C with public prices
 - B2B with public prices
-- B2B "Susisiekime" / contact-sales only
+- B2B contact-sales only
 - Freemium / free tier + paid
 - Pre-revenue, no pricing yet
 ```
@@ -192,7 +192,7 @@ After all questions answered, the command writes `.pmstack/positioning.md` with 
 | Q5 (honesty test) | NOT-shipped section + banned framing per audience |
 | Q6 (proof test) | Proof available today + audit floor |
 | Q7 (conversion test) | Primary CTA + delivery realism |
-| C1 | Geography + language |
+| C1 | Geography / market |
 | C2 | Pricing direction |
 | C3 | Advisory stance + banned-verb defaults |
 | C4 | Honesty stance |

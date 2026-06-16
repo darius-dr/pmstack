@@ -59,7 +59,7 @@ The framework can be overridden by the command.
 
 3. **Advisory stance compliance.** If positioning says the product is interpretive ("facts, you decide"), the copy must not make recommendations — it can present, explain, calculate, never advise.
 
-4. **Language fidelity.** Write in the language documented in positioning.md (`lang`). Lithuanian copy must use correct LT diacritics. Don't mix languages within a variant.
+4. **Voice fidelity.** Write in the brand's documented voice and register (read it from the brand skill and positioning.md). Don't drift tone within a single variant.
 
 5. **No fabricated proof.**
    - No invented numbers ("2,400+ reports", "98% accuracy").
@@ -76,7 +76,7 @@ The framework can be overridden by the command.
    - B2B pro: time/margin/liability lead, no anxiety-bait.
    - Don't write "the smart way" copy for either — both audiences hate condescension.
 
-9. **CTA is a verb + object.** "Get a report" beats "Learn more". For lead-capture segments: "Schedule a call", "Susisiekime", "Pakalbėkime" — never "Submit".
+9. **CTA is a verb + object.** "Get a report" beats "Learn more". For lead-capture segments: "Schedule a call", "Talk to sales" — never "Submit".
 
 10. **Sub-headline is not a repeat of the headline.** It adds information (proof, audience, scope, mechanism). If yours just paraphrases the headline, rewrite.
 

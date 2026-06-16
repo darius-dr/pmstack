@@ -44,7 +44,6 @@ You are dispatching the Trust & Objection Auditor subagent. This is the most imp
    MEDIUM (worth fixing, won't block):
    - Inconsistent voice / tone between sections.
    - Section-to-section contradictions in positioning.
-   - Localization mistakes (LT diacritic-aware fonts, untranslated strings).
 
    LOW (note for follow-up):
    - Clarity / readability issues.

@@ -1,7 +1,7 @@
 {
   "name": "pmstack",
   "version": "0.1.0",
-  "description": "Product-marketing stack for Claude Code. A gstack-shaped plugin for positioning, conversion copy, trust audits, visual critique, LT/EU SEO, and A/B planning — opinionated for product-led B2C+B2B sites that need to look great and convert.",
+  "description": "Product-marketing stack for Claude Code. A gstack-shaped plugin for positioning, conversion copy, trust audits, visual critique, SEO, and A/B planning — opinionated for product-led B2C+B2B sites that need to look great and convert.",
   "license": "MIT",
   "author": {
     "name": "Darius Drevinskas",

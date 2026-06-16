@@ -50,7 +50,6 @@ You are the synthesis step. Collect the freshest pmstack artifacts and produce o
    - [ ] Trust audit re-run after final diff applied: 0 Critical.
    - [ ] Visual diff (Chromatic / Percy / manual) screenshots reviewed.
    - [ ] Lighthouse run on /, /pricing, /precheck (current baseline + new).
-   - [ ] LT diacritic spot-check on hero / pricing / footer.
    - [ ] Stripe price IDs unchanged (or intentionally changed with billing team).
 
    ## Suggested commit message

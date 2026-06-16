@@ -34,7 +34,7 @@ You are dispatching the Audience Researcher subagent for the segment named in `$
 
    Hard rules:
    - Do not invent demographics, testimonials, or pain points. Cite source MDs for every claim.
-   - If the segment has no real proof in the repo, the primary CTA must be lead-capture ("Susisiekime", "Pakalbėkime", "Schedule a call"), NOT a purchase CTA.
+   - If the segment has no real proof in the repo, the primary CTA must be lead-capture ("Schedule a call", "Talk to sales"), NOT a purchase CTA.
    - Keep the file under 600 words.
    ```
 

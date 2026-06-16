@@ -67,7 +67,7 @@ Replace `.pmstack/icp/{segment}.md` with a refined brief. Length: 400-600 words.
    - No anxiety-bait copy ("avoid this trap…"). Pros aren't anxious; they're busy.
    - No explainer-style content. They know the domain.
    - Primary CTA is lead-capture by default unless there's real proof of pro purchase behavior.
-   - Pricing: don't quote — route to "Susisiekime" / "Schedule a call".
+   - Pricing: don't quote — route to "Schedule a call".
    - Objections are commercial (margin, time, liability), not emotional.
 
 4. **B2C guardrails.** If the segment is a casual buyer/seller:

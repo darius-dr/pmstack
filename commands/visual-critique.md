@@ -50,9 +50,6 @@ You are dispatching the Visual Critic subagent.
    - Focus styles present on interactive elements?
    - Tap targets ≥44px on mobile-likely components (buttons, segmented controls, links).
 
-   LOCALIZATION:
-   - If lang=lt or any non-ASCII language: do the chosen fonts render diacritics correctly? (Common LT trap: certain serifs mis-position ū macron.)
-
    Output to .pmstack/critique/{YYYY-MM-DD}-{HHMM}.md with structure:
 
    # Visual Critique — {date}

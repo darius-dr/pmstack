@@ -82,15 +82,10 @@ Write `.pmstack/critique/{YYYY-MM-DD}-{HHMM}.md`:
 21. Tap targets ≥44px on mobile-likely components.
 22. Text is not embedded in images (or, if it is, has accessible alt).
 
-### Localization
-23. If lang=lt or any diacritic-bearing language: the chosen display font renders diacritics correctly (e.g. ū macron not mis-positioned). Newsreader OK; Fraunces breaks. IBM Plex Mono OK. Inter OK.
-24. RTL-readiness if relevant.
-25. No untranslated English strings ("Loading…" inside a Lithuanian site, etc.).
-
 ### Information architecture
-26. Section order tells a coherent story (problem → product → proof → price → action).
-27. Each section has a clear purpose distinguishable from its neighbors.
-28. Footer carries legal links, contact, secondary nav — not promotional content.
+23. Section order tells a coherent story (problem → product → proof → price → action).
+24. Each section has a clear purpose distinguishable from its neighbors.
+25. Footer carries legal links, contact, secondary nav — not promotional content.
 
 ## Hard rules
 
@@ -106,4 +101,3 @@ Write `.pmstack/critique/{YYYY-MM-DD}-{HHMM}.md`:
 - Writing visual critique without having read DESIGN.md.
 - Citing competitor look-and-feel as a reason to change. (Inspiration is fine; "competitor X does Y so we should" is not a heuristic.)
 - Mood-board language ("feels premium", "looks dated").
-- Ignoring localization issues because they're "small" — they're not.

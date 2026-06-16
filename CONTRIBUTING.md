@@ -7,7 +7,6 @@ Thanks for considering a contribution. pmstack is opinionated by design — most
 1. **Per-brand skills** — drop `skills/{brand}/SKILL.md` in the structure of `skills/example-brand/SKILL.md`. This is where pmstack gets sharp.
 2. **Per-vertical ICP frameworks** — fintech, healthtech, marketplaces, dev tools, etc.
 3. **Regulatory trust-audit checklists** — sectoral compliance regimes the auditor can apply (GDPR-EU consumer protection, HIPAA marketing rules, FTC truth-in-advertising, FCA financial promotions).
-4. **Localization** — pmstack defaults to Lithuanian-aware tone + diacritic handling. PL/EE/LV/DE/SE are the obvious next.
 
 ## Design principles (non-negotiable)
 

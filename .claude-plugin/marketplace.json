@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "pmstack",
-      "description": "A gstack-shaped plugin that turns Claude Code into a virtual product-marketing team. 10 commands, 6 opinionated subagents, 4 skills. Honesty-by-default: a trust auditor blocks shipping copy that's ahead of the product, fabricated, or regulatorily exposed. Works on any product (Lithuanian, English, B2C, B2B).",
+      "description": "A gstack-shaped plugin that turns Claude Code into a virtual product-marketing team. 10 commands, 6 opinionated subagents, 4 skills. Honesty-by-default: a trust auditor blocks shipping copy that's ahead of the product, fabricated, or regulatorily exposed. Works on any product, B2C or B2B.",
       "version": "0.1.0",
       "author": {
         "name": "Darius Drevinskas",

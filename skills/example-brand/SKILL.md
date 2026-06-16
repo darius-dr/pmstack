@@ -35,7 +35,7 @@ The sharper and more honest this file is, the sharper the copy, audits, and crit
 | Body | {Font} | {…} |
 | Data / labels / mono | {Font} | {…} |
 
-*If you target a non-English language or diacritics, note any font that renders them incorrectly — this is load-bearing for the copywriter (e.g. some serifs mis-position macrons/accents at display size).*
+*Note any font that fails to render your key characters or numerals cleanly at display size — this is load-bearing for headline copy.*
 
 ## Color tokens
 

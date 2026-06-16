@@ -65,8 +65,6 @@ Things you checked that came back clean. Builds reviewer confidence.
 **MEDIUM** — Worth fixing, won't block.
 - Inconsistent voice/tone between sections.
 - Section-to-section positioning contradictions.
-- Untranslated strings, mixed-language fragments.
-- Wrong fonts for localization (LT diacritic rendering, RTL support, etc.).
 
 **LOW** — Polish.
 - Clarity/readability issues, jargon, sentence length, accessibility friction.
@@ -99,7 +97,6 @@ Run this every time:
 - [ ] Every feature on the landing matches a feature flag or section in the product.
 - [ ] Every CTA verb matches the action the user actually takes (not "Get instant access" when the access takes 5 minutes).
 - [ ] The advisory stance documented in positioning.md is honored everywhere.
-- [ ] LT-diacritic fonts render correctly (or the equivalent for the target language).
 
 ## Anti-patterns to flag aggressively
 

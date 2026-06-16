@@ -31,7 +31,7 @@ Auto-detect:
 
 3. **Run the questions** from `skills/intake-questionnaire/SKILL.md`. Apply the pushback rules — never accept a vague answer on the first attempt; push back at least once, then accept + flag as `needs-interview` if the second attempt is still vague.
 
-4. **Use AskUserQuestion** when the answer space is bounded (language, pricing model, advisory stance). Use plain conversational asks when the answer is open-ended (tagline, JTBD, audience description).
+4. **Use AskUserQuestion** when the answer space is bounded (pricing model, advisory stance). Use plain conversational asks when the answer is open-ended (tagline, JTBD, audience description).
 
 5. **Synthesize answers into `.pmstack/positioning.md`** using the exact structure documented in `commands/ingest.md`. In augment mode, only overwrite the gaps; preserve everything else verbatim.
 

@@ -15,7 +15,7 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 > When {situation}, I want to {motivation}, so I can {outcome}.
 
 **Good example (real-estate B2C):**
-> When I've found a property I might buy in Lithuania, I want to verify what could go wrong with it, so I can either negotiate the price down or walk away before I sign.
+> When I've found a property I might buy, I want to verify what could go wrong with it, so I can either negotiate the price down or walk away before I sign.
 
 **Bad example (too vague):**
 > When I'm buying property, I want information, so I can be informed.
@@ -38,9 +38,9 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 3. **Solution** (1 sentence): position the product as the path out.
 
 **Example (real-estate hero, B2C buyers):**
-> Pardavėjas nepasakys, kas yra negerai su objektu. (P)
-> Vėliau apie paslėptus servitutus, areštus ar apribojimus sužinosi tik tada, kai jau sumokėjai €200,000+. (A)
-> Acme per ~5 min surenka faktus iš oficialių šaltinių į vieną aiškią ataskaitą. Sprendimą priimi tu. (S)
+> The seller won't tell you what's wrong with the property. (P)
+> You find out about hidden easements, liens, or restrictions only after you've already wired €200,000+. (A)
+> Acme pulls the facts from official sources into one clear report in ~5 minutes. You decide. (S)
 
 **Where PAS fails:**
 - B2B pro audiences (they don't want pain named for them).
@@ -58,9 +58,9 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 3. **Bridge:** the specific mechanism that gets you there.
 
 **Example (real-estate value-props):**
-- **Before:** "Atsakymai paslėpti per dešimt skirtingų portalų ir registrų."
-- **After:** "Vienoje aiškioje ataskaitoje — su nuorodomis į kiekvieną šaltinį."
-- **Bridge:** "Automatiniai duomenų užklausimai iš Registrų centro, Geoportal.lt, Regia.lt."
+- **Before:** "The answers are scattered across ten different portals and registries."
+- **After:** "All in one clear report — with a link to every source."
+- **Bridge:** "Automated data pulls from the land registry, the cadastre, and mapping services."
 
 **Where BAB shines:** when the product's value is the workflow change, not the feature list.
 
@@ -77,10 +77,10 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 4. **Action:** a single, clear next step.
 
 **Example (real-estate pricing):**
-- **A:** *€49 už ataskaitą, kuri taupo €1,000+ derybose.*
-- **I:** Per ~5 min — duomenys iš 8 oficialių šaltinių, AI santrauka, rizikų paaiškinimai.
-- **D:** Pirkdamas €200,000 sklypą be patikros, rizikuoji daugiau, nei mokant teisininkui. Su Acme — tau faktai prieš parašą.
-- **A:** *Patikrinti objektą →*
+- **A:** *€49 for a report that saves €1,000+ at the negotiating table.*
+- **I:** In ~5 minutes — data from 8 official sources, an AI summary, plain-language risk explanations.
+- **D:** Buying a €200,000 property with no due diligence risks far more than a lawyer's fee. With Acme, you get the facts before you sign.
+- **A:** *Check a property →*
 
 **Where AIDA fails:**
 - Cold-traffic hero sections (jumps to Desire too fast; PAS reads better).

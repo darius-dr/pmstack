@@ -2,9 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-7C5CFF.svg)](https://docs.claude.com/en/docs/claude-code/plugins) [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/dariusd)
 
-> Product-marketing stack for Claude Code. A gstack-shaped opinionated plugin that turns Claude Code into a virtual product-marketing team: positioning, conversion copy, trust audits, visual critique, LT/EU SEO, and A/B planning — built for product-led sites that need to look great and convert without making things up.
+> Product-marketing stack for Claude Code. A gstack-shaped opinionated plugin that turns Claude Code into a virtual product-marketing team: positioning, conversion copy, trust audits, visual critique, SEO, and A/B planning — built for product-led sites that need to look great and convert without making things up.
 
-**Status:** v0.1 — initial release. Opinionated by default; built and tuned on a real product, designed to generalize across products, languages (LT/EN), and B2C/B2B.
+**Status:** v0.1 — initial release. Opinionated by default; built and tuned on a real product, designed to generalize across products and across B2C/B2B.
 
 ## Why pmstack exists
 
@@ -39,7 +39,7 @@ cd path/to/your/marketing-site
 /pm:copy hero           # rewrite a section per audience
 /pm:trust-audit         # flag honesty / overpromise issues
 /pm:visual-critique     # design heuristics + design-system compliance
-/pm:seo                 # local-language SEO brief (LT default, English variants)
+/pm:seo                 # SEO brief (keywords, schema, meta, content gaps)
 /pm:ab-plan hero        # variants + hypotheses for a section
 /pm:handoff             # synthesize subagent output → diff plan
 /pm:ship                # apply the approved diff to the site repo
@@ -55,7 +55,7 @@ cd path/to/your/marketing-site
 | `/pm:copy <section>` | Spawns Conversion Copywriter. Rewrites a section against AIDA/PAS/BAB, anchored to one audience. | When a section underperforms or is off-brand. |
 | `/pm:trust-audit` | Spawns Trust & Objection Auditor. Flags claims ahead of shipped capability, fake stats, fabricated proof. | Before every launch. Mandatory CI step. |
 | `/pm:visual-critique` | Spawns Visual Critic. Checks against your DESIGN.md + heuristics (hierarchy, density, motion). | After major visual changes. |
-| `/pm:seo` | Spawns SEO / Local-search Lead. LT-default keyword + schema + meta + URL structure brief. | Quarterly, or before targeting a new geo/segment. |
+| `/pm:seo` | Spawns SEO / Local-search Lead. Keyword + schema + meta + URL structure brief. | Quarterly, or before targeting a new geo/segment. |
 | `/pm:ab-plan <section>` | Spawns A/B Test Planner. Variants ranked by expected lift + hypothesis + minimum sample size. | When traffic is high enough to test against. |
 | `/pm:handoff` | Synthesizes the most recent subagent outputs into a single diff plan against your repo. | When you're ready to ship copy/visual changes. |
 | `/pm:ship` | Applies the approved diff. Equivalent to gstack's `/ship`. | Last. Reviewed by you. |
@@ -68,7 +68,7 @@ Six opinionated subagents, each with a single job:
 2. **Conversion Copywriter** (`agents/conversion-copywriter.md`) — section-level rewrites against AIDA/PAS/BAB. Refuses to write outside your brand voice or banned-verb list.
 3. **Trust & Objection Auditor** (`agents/trust-objection-auditor.md`) — the most important one. Flags any claim ahead of shipped capability, invented testimonials, refund guarantees, "comprehensive" / "best-in-class" / "industry-leading" phrasing, regulatory exposure.
 4. **Visual Critic** (`agents/visual-critic.md`) — visual heuristics + your DESIGN.md compliance. Catches density issues, hierarchy violations, motion overuse, color contrast.
-5. **SEO / Local-search Lead** (`agents/seo-local-search-lead.md`) — local-language SEO. Defaults to LT but documents how to adapt. Schema.org markup, meta, URL structure, content gaps vs competitors.
+5. **SEO / Local-search Lead** (`agents/seo-local-search-lead.md`) — SEO plus local/geographic search. Schema.org markup, meta, URL structure, content gaps vs competitors.
 6. **A/B Test Planner** (`agents/ab-test-planner.md`) — variant scaffolds with explicit hypotheses + expected lift + minimum sample size. Doesn't propose A/B tests below traffic thresholds.
 
 ## Skills
@@ -85,7 +85,7 @@ Four skills extend pmstack's per-repo knowledge:
 pmstack's Trust & Objection Auditor enforces an **honest-now** stance by default. That means:
 
 - ❌ No fabricated stats ("2,400+ reports", "98% satisfaction") unless they're in your repo with a source.
-- ❌ No invented testimonials. Pro/B2B segments without real proof get **lead-capture CTAs** ("Susisiekime"), not fake social proof.
+- ❌ No invented testimonials. Pro/B2B segments without real proof get **lead-capture CTAs** ("Talk to sales"), not fake social proof.
 - ❌ No "comprehensive" / "complete" / "all-in-one" if the product doesn't actually deliver that today.
 - ❌ No refund / SLA / guarantee claims unless you have the policy committed.
 - ✅ Marketing matches what the product delivers today. Future capabilities are marked as roadmap, not present tense.
@@ -136,7 +136,7 @@ It's framework-agnostic for the underlying site — Next.js, SvelteKit, Astro, R
 - v0.2 — `/pm:icp-interview` — generate interview scripts for un-validated segments; record findings back into ICP files.
 - v0.3 — `/pm:competitive-brief` — competitor scrape + positioning gap analysis. Integrates with the existing `competitive-brief` plugin where present.
 - v0.4 — `/pm:growth-loop` — diagram the acquisition → activation → retention loop and identify the highest-leverage gap.
-- v1.0 — multi-language support + per-region brand skills + opinionated CRO playbook.
+- v1.0 — per-region brand skills + opinionated CRO playbook.
 
 ## Contributing
 

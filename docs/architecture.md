@@ -199,4 +199,3 @@ PRs welcome. The highest-leverage contributions:
 - Per-brand skills (drop a `skills/{brand}/SKILL.md`).
 - Per-vertical ICP frameworks (e.g. fintech, healthtech, marketplaces).
 - Trust-audit checklists for specific regulatory regimes (GDPR-EU, CCPA, FTC, sectoral).
-- Localization skills (LT today; PL/EE/LV/DE are the obvious next).

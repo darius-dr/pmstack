@@ -14,6 +14,7 @@ All notable changes to pmstack are documented here. Format: [Keep a Changelog](h
 ### Changed
 - Replaced the client-specific example brand skill and worked-example artifacts with a generic `example-brand` template. The repo no longer ships real-client data.
 - Corrected the command count (10 commands) across the marketplace manifest and docs.
+- Removed Lithuanian-specific examples, diacritic/localization checks, and multi-language SEO framing.
 
 ## [0.1.0] — 2026-06-01
 

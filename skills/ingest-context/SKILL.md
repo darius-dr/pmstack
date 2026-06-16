@@ -72,7 +72,7 @@ For every Tier 1-2 file, scan for these signals and note them with file paths:
 - LEGAL TODOs that constrain copy.
 
 ### Operational
-- Geography + language(s).
+- Geography / primary market.
 - Pricing — current, whether it's stale, B2B vs B2C.
 - Data sources / partners (real ones that can be cited).
 - Tech stack (informs editing format for /pm:ship).

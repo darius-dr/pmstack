@@ -44,7 +44,6 @@ You are dispatching the Conversion Copywriter subagent for the section named in 
    Then add a "Recommended" section that picks one variant and explains why.
 
    Hard rules:
-   - Lithuanian copy if positioning.md says lang=lt. English if lang=en. Bilingual only if explicitly required.
    - Never use the brand's banned-verb list (read it from positioning.md).
    - Never invent stats, testimonials, or proof. If the variant needs proof to land, write "[proof: {what you need}]" and stop.
    - Stay inside the advisory stance documented in positioning.md (interpretive vs recommendatory).

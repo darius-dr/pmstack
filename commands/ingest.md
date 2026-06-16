@@ -25,12 +25,12 @@ You are running pmstack's ingest step. Your job is to read the marketing-relevan
    - **Audiences (segments)** — every distinct ICP mentioned. Map each to its job-to-be-done if present.
    - **Value pillars** — the 5-10 things the product actually delivers.
    - **Advisory stance** — does the product take a position ("recommended", "best for…") or stay interpretive ("here are the facts, you decide")? Pull verbatim if stated.
-   - **Banned phrases / verbs** — anything the brand explicitly refuses to say (e.g. "rekomenduojama", "verta", "comprehensive", "industry-leading").
+   - **Banned phrases / verbs** — anything the brand explicitly refuses to say (e.g. "comprehensive", "all-in-one", "industry-leading").
    - **Shipped vs aspirational features** — what works TODAY vs what's marketed-ahead-of-product. This is the load-bearing input for the trust auditor.
    - **Honesty stance** — does the existing copy contain claims ahead of shipped capability? If so, list them.
-   - **Pricing direction** — current prices, whether they're stale, whether B2B has hard prices or is "Susisiekime" only.
+   - **Pricing direction** — current prices, whether they're stale, whether B2B has hard prices or is "contact sales" only.
    - **Competitor landscape** — direct + indirect competitors mentioned in the repo.
-   - **Geography / language** — primary market, secondary markets, UI language.
+   - **Geography** — primary market, secondary markets.
    - **Design system** — brand colors, typography, voice, the aesthetic name if one exists (e.g. "Calm Utility").
 
 3. **For each audience segment, write a scaffold**:
