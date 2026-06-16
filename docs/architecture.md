@@ -6,7 +6,7 @@ A 5-minute read for contributors.
 
 pmstack = **gstack for marketing**.
 
-gstack turns Claude Code into a virtual engineering team by giving it 28 slash commands that activate distinct cognitive modes (CEO, eng manager, designer, reviewer, QA, security, release engineer). pmstack does the same for product marketing: 8 commands that route to 6 opinionated subagents, each with a single job.
+gstack turns Claude Code into a virtual engineering team by giving it 28 slash commands that activate distinct cognitive modes (CEO, eng manager, designer, reviewer, QA, security, release engineer). pmstack does the same for product marketing: 10 commands that route to 6 opinionated subagents, each with a single job.
 
 The shape is identical. The opinions are different.
 
@@ -117,7 +117,7 @@ pmstack/
 ├── skills/                   # composable knowledge
 │   ├── ingest-context/SKILL.md
 │   ├── intake-questionnaire/SKILL.md  # used by /pm:office-hours
-│   ├── relando-brand/SKILL.md     # example brand skill
+│   ├── example-brand/SKILL.md         # template brand skill
 │   └── icp-frameworks/SKILL.md
 ├── docs/
 │   └── architecture.md       # this file
@@ -156,10 +156,10 @@ The `.pmstack/` directory is committed to the repo so the team can review the ar
 
 ## Adding a brand skill for your project
 
-The `skills/relando-brand/SKILL.md` file is an example. To add your own brand:
+The `skills/example-brand/SKILL.md` file is a template. To add your own brand:
 
 1. Create `skills/{your-brand}/SKILL.md`.
-2. Follow the structure of the Relando file (Identity → Aesthetic → Typography → Colors → Voice → Audiences → Shipped/Not-shipped → Legal constraints).
+2. Follow the structure of the template file (Identity → Aesthetic → Typography → Colors → Voice → Audiences → Shipped/Not-shipped → Legal constraints).
 3. Reference it from your repo's `.pmstack/positioning.md` so the subagents route to it.
 
 Brand skills are the highest-leverage contribution — pmstack subagents are only as sharp as the brand voice they're working with.

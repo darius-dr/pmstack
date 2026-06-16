@@ -4,7 +4,7 @@
 
 > Product-marketing stack for Claude Code. A gstack-shaped opinionated plugin that turns Claude Code into a virtual product-marketing team: positioning, conversion copy, trust audits, visual critique, LT/EU SEO, and A/B planning — built for product-led sites that need to look great and convert without making things up.
 
-**Status:** v0.1 — initial release, tuned for [Relando](https://reportus-web.vercel.app/) (LT real-estate due diligence) but designed to generalize.
+**Status:** v0.1 — initial release. Opinionated by default; built and tuned on a real product, designed to generalize across products, languages (LT/EN), and B2C/B2B.
 
 ## Why pmstack exists
 
@@ -77,7 +77,7 @@ Four skills extend pmstack's per-repo knowledge:
 
 - `ingest-context` — how to read a marketing-adjacent repo (PRD, DESIGN, REDESIGN-PLAN, TODOS, planning artifacts) without missing anything.
 - `intake-questionnaire` — forcing-questions catalog + pushback rules for `/pm:office-hours`. Used when the repo can't be ingested.
-- `relando-brand` — example skill: the Relando brand voice, tokens, banned verbs, advisory stance. Replace with your own brand skill or copy the structure.
+- `example-brand` — template brand skill: the structure for a brand's voice, tokens, banned verbs, and advisory stance. Copy it to `skills/{your-brand}/SKILL.md` and fill in your product's details.
 - `icp-frameworks` — JTBD, PAS, AIDA, BAB, value-prop canvas. Concrete prompts the subagents pull from.
 
 ## Honesty stance (the load-bearing part)

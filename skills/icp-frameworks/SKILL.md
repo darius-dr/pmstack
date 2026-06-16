@@ -14,7 +14,7 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 **Format:**
 > When {situation}, I want to {motivation}, so I can {outcome}.
 
-**Good example (Relando B2C):**
+**Good example (real-estate B2C):**
 > When I've found a property I might buy in Lithuania, I want to verify what could go wrong with it, so I can either negotiate the price down or walk away before I sign.
 
 **Bad example (too vague):**
@@ -37,10 +37,10 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 2. **Agitate** (1-2 sentences): make the cost of inaction concrete.
 3. **Solution** (1 sentence): position the product as the path out.
 
-**Example (Relando hero, B2C buyers):**
+**Example (real-estate hero, B2C buyers):**
 > Pardavėjas nepasakys, kas yra negerai su objektu. (P)
 > Vėliau apie paslėptus servitutus, areštus ar apribojimus sužinosi tik tada, kai jau sumokėjai €200,000+. (A)
-> Relando per ~5 min surenka faktus iš oficialių šaltinių į vieną aiškią ataskaitą. Sprendimą priimi tu. (S)
+> Acme per ~5 min surenka faktus iš oficialių šaltinių į vieną aiškią ataskaitą. Sprendimą priimi tu. (S)
 
 **Where PAS fails:**
 - B2B pro audiences (they don't want pain named for them).
@@ -57,7 +57,7 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 2. **After:** the world post-product.
 3. **Bridge:** the specific mechanism that gets you there.
 
-**Example (Relando value-props):**
+**Example (real-estate value-props):**
 - **Before:** "Atsakymai paslėpti per dešimt skirtingų portalų ir registrų."
 - **After:** "Vienoje aiškioje ataskaitoje — su nuorodomis į kiekvieną šaltinį."
 - **Bridge:** "Automatiniai duomenų užklausimai iš Registrų centro, Geoportal.lt, Regia.lt."
@@ -76,10 +76,10 @@ The frameworks pmstack subagents actually reach for. Not exhaustive — opiniona
 3. **Desire:** make the outcome vivid.
 4. **Action:** a single, clear next step.
 
-**Example (Relando pricing):**
+**Example (real-estate pricing):**
 - **A:** *€49 už ataskaitą, kuri taupo €1,000+ derybose.*
 - **I:** Per ~5 min — duomenys iš 8 oficialių šaltinių, AI santrauka, rizikų paaiškinimai.
-- **D:** Pirkdamas €200,000 sklypą be patikros, rizikuoji daugiau, nei mokant teisininkui. Su Relando — tau faktai prieš parašą.
+- **D:** Pirkdamas €200,000 sklypą be patikros, rizikuoji daugiau, nei mokant teisininkui. Su Acme — tau faktai prieš parašą.
 - **A:** *Patikrinti objektą →*
 
 **Where AIDA fails:**

@@ -57,7 +57,7 @@ Auto-detect:
 
 6. **Never invent answers to skip questions.** A blank field is better than a fabricated one.
 
-7. **Pre-fill from the repo, but verify.** If `package.json` says the product is called `relando`, ask "I see this is named Relando in the repo — is that the public name you market as, or just the codebase name?" Don't assume.
+7. **Pre-fill from the repo, but verify.** If `package.json` names the product (e.g. `acme-web`), ask "I see this is named Acme in the repo — is that the public name you market as, or just the codebase name?" Don't assume.
 
 ## What the interview is NOT
 

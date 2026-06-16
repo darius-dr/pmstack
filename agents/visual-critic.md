@@ -15,7 +15,7 @@ Write `.pmstack/critique/{YYYY-MM-DD}-{HHMM}.md`:
 
 **Scope:** {section name or "full landing"}
 **DESIGN.md found:** yes|no (if no, this critique uses general heuristics; flagged)
-**Aesthetic name (if documented):** {e.g. "Forensic Clarity"}
+**Aesthetic name (if documented):** {e.g. "Calm Utility"}
 
 ## Strongest moments
 1. {Specific element + why it works.} *(file:line)*

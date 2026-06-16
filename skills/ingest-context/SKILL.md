@@ -47,8 +47,8 @@ For every Tier 1-2 file, scan for these signals and note them with file paths:
 
 ### Brand + naming
 - Product name (current).
-- Legacy names (PRD might say "EstateReport" while the site says "Relando").
-- Aesthetic name ("Forensic Clarity", "Refined Professional").
+- Legacy names (the PRD might use an old product name while the site uses the current one).
+- Aesthetic name (e.g. "Calm Utility", "Editorial Bold").
 - Voice + tone notes.
 
 ### Positioning

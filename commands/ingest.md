@@ -31,7 +31,7 @@ You are running pmstack's ingest step. Your job is to read the marketing-relevan
    - **Pricing direction** — current prices, whether they're stale, whether B2B has hard prices or is "Susisiekime" only.
    - **Competitor landscape** — direct + indirect competitors mentioned in the repo.
    - **Geography / language** — primary market, secondary markets, UI language.
-   - **Design system** — brand colors, typography, voice, the aesthetic name if one exists (e.g. "Forensic Clarity").
+   - **Design system** — brand colors, typography, voice, the aesthetic name if one exists (e.g. "Calm Utility").
 
 3. **For each audience segment, write a scaffold**:
    ```md

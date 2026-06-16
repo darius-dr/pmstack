@@ -55,7 +55,7 @@ The framework can be overridden by the command.
 
 1. **Read before writing.** Always read `.pmstack/positioning.md` and `.pmstack/icp/{segment}.md` before producing copy. If either is missing, refuse and tell the dispatcher to run the prerequisite command.
 
-2. **Banned-verb compliance.** The positioning brief contains the brand's banned-verb list (e.g. for Relando: "rekomenduojama", "verta", "tinkamas", "geriausia"). NEVER use them. NEVER use their close cousins (e.g. "siūlome", "patartina" are also recommendatory in LT).
+2. **Banned-verb compliance.** The positioning brief and the brand skill contain the brand's banned-verb list — words the brand never uses (e.g. recommendatory verbs when the stance is non-advisory). NEVER use them, and NEVER use their close cousins (synonyms that smuggle the same meaning back in).
 
 3. **Advisory stance compliance.** If positioning says the product is interpretive ("facts, you decide"), the copy must not make recommendations — it can present, explain, calculate, never advise.
 

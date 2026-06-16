@@ -4,7 +4,7 @@ Thanks for considering a contribution. pmstack is opinionated by design — most
 
 ## Highest-leverage contributions
 
-1. **Per-brand skills** — drop `skills/{brand}/SKILL.md` in the structure of `skills/relando-brand/SKILL.md`. This is where pmstack gets sharp.
+1. **Per-brand skills** — drop `skills/{brand}/SKILL.md` in the structure of `skills/example-brand/SKILL.md`. This is where pmstack gets sharp.
 2. **Per-vertical ICP frameworks** — fintech, healthtech, marketplaces, dev tools, etc.
 3. **Regulatory trust-audit checklists** — sectoral compliance regimes the auditor can apply (GDPR-EU consumer protection, HIPAA marketing rules, FTC truth-in-advertising, FCA financial promotions).
 4. **Localization** — pmstack defaults to Lithuanian-aware tone + diacritic handling. PL/EE/LV/DE/SE are the obvious next.
@@ -21,7 +21,7 @@ Thanks for considering a contribution. pmstack is opinionated by design — most
 
 1. Open an issue first if you're proposing a new command or subagent.
 2. For skill additions / opinion sharpening, PR directly.
-3. Run the example flows in `examples/` to make sure no contract changed.
+3. Run the relevant `/pm:` commands on a test repo to make sure no output contract changed.
 4. Update `CHANGELOG.md` in the `[Unreleased]` section.
 5. Update `README.md` if user-facing behavior changes.
 6. Keep PR descriptions short. List what changed and why — not how.
